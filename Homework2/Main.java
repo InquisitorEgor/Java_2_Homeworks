@@ -6,8 +6,7 @@ public class Main {
         String str = "1 3 1 2\n2 3 2 2\n5 6 7 1\n3 3 1 0";
 
         try {
-            int i = divide(str);
-            System.out.println("The result is: " + i);
+            System.out.println("The result is: " + divide(str));
         } catch (MyArrayLengthException e) {
             e.info();
         } catch (MyArrayDataException e) {
